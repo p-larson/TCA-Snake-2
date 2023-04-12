@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct TCA_Snake_2App: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup {            
+            ContentView(
+                store: StoreOf<Snake>(
+                    initialState: Snake.State(),
+                    reducer: Snake()
+                )
+            )
         }
     }
 }

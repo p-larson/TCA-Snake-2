@@ -7,36 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B6056629E3612D005449FE /* TCA_Snake_2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6056529E3612D005449FE /* TCA_Snake_2_Tests.swift */; };
+		98B6056D29E36538005449FE /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6056C29E36538005449FE /* Vector.swift */; };
+		98B6056F29E368DF005449FE /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6056E29E368DF005449FE /* Coordinate.swift */; };
 		98C2C74F29DB352C00A48C27 /* TCA_Snake_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2C74E29DB352C00A48C27 /* TCA_Snake_2App.swift */; };
 		98C2C75129DB352C00A48C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2C75029DB352C00A48C27 /* ContentView.swift */; };
 		98C2C75329DB352E00A48C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C2C75229DB352E00A48C27 /* Assets.xcassets */; };
 		98C2C75629DB352E00A48C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C2C75529DB352E00A48C27 /* Preview Assets.xcassets */; };
+		98C2C75F29DB356B00A48C27 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 98C2C75E29DB356B00A48C27 /* ComposableArchitecture */; };
+		98C2C76129DB358200A48C27 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2C76029DB358200A48C27 /* Snake.swift */; };
+		98DBFEA929E6076500679032 /* CoordinateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DBFEA829E6076500679032 /* CoordinateGenerator.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		98B6056729E3612D005449FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C2C74329DB352C00A48C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C2C74A29DB352C00A48C27;
+			remoteInfo = "TCA-Snake 2";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		98B6056329E3612D005449FE /* TCA-Snake 2 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-Snake 2 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B6056529E3612D005449FE /* TCA_Snake_2_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_Snake_2_Tests.swift; sourceTree = "<group>"; };
+		98B6056C29E36538005449FE /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		98B6056E29E368DF005449FE /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		98C2C74B29DB352C00A48C27 /* TCA-Snake 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-Snake 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C2C74E29DB352C00A48C27 /* TCA_Snake_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_Snake_2App.swift; sourceTree = "<group>"; };
 		98C2C75029DB352C00A48C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98C2C75229DB352E00A48C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C2C75529DB352E00A48C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98C2C75729DB352E00A48C27 /* TCA_Snake_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCA_Snake_2.entitlements; sourceTree = "<group>"; };
+		98C2C76029DB358200A48C27 /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		98DBFEA829E6076500679032 /* CoordinateGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		98C2C74829DB352C00A48C27 /* Frameworks */ = {
+		98B6056029E3612D005449FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98C2C74829DB352C00A48C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C2C75F29DB356B00A48C27 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98B6056429E3612D005449FE /* TCA-Snake 2 Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98B6056529E3612D005449FE /* TCA_Snake_2_Tests.swift */,
+			);
+			path = "TCA-Snake 2 Tests";
+			sourceTree = "<group>";
+		};
 		98C2C74229DB352C00A48C27 = {
 			isa = PBXGroup;
 			children = (
 				98C2C74D29DB352C00A48C27 /* TCA-Snake 2 */,
+				98B6056429E3612D005449FE /* TCA-Snake 2 Tests */,
 				98C2C74C29DB352C00A48C27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				98C2C74B29DB352C00A48C27 /* TCA-Snake 2.app */,
+				98B6056329E3612D005449FE /* TCA-Snake 2 Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +94,10 @@
 			children = (
 				98C2C74E29DB352C00A48C27 /* TCA_Snake_2App.swift */,
 				98C2C75029DB352C00A48C27 /* ContentView.swift */,
+				98C2C76029DB358200A48C27 /* Snake.swift */,
+				98B6056C29E36538005449FE /* Vector.swift */,
+				98B6056E29E368DF005449FE /* Coordinate.swift */,
+				98DBFEA829E6076500679032 /* CoordinateGenerator.swift */,
 				98C2C75229DB352E00A48C27 /* Assets.xcassets */,
 				98C2C75729DB352E00A48C27 /* TCA_Snake_2.entitlements */,
 				98C2C75429DB352E00A48C27 /* Preview Content */,
@@ -72,6 +116,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		98B6056229E3612D005449FE /* TCA-Snake 2 Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B6056929E3612D005449FE /* Build configuration list for PBXNativeTarget "TCA-Snake 2 Tests" */;
+			buildPhases = (
+				98B6055F29E3612D005449FE /* Sources */,
+				98B6056029E3612D005449FE /* Frameworks */,
+				98B6056129E3612D005449FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B6056829E3612D005449FE /* PBXTargetDependency */,
+			);
+			name = "TCA-Snake 2 Tests";
+			productName = "TCA-Snake 2 Tests";
+			productReference = 98B6056329E3612D005449FE /* TCA-Snake 2 Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		98C2C74A29DB352C00A48C27 /* TCA-Snake 2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98C2C75A29DB352E00A48C27 /* Build configuration list for PBXNativeTarget "TCA-Snake 2" */;
@@ -85,6 +147,9 @@
 			dependencies = (
 			);
 			name = "TCA-Snake 2";
+			packageProductDependencies = (
+				98C2C75E29DB356B00A48C27 /* ComposableArchitecture */,
+			);
 			productName = "TCA-Snake 2";
 			productReference = 98C2C74B29DB352C00A48C27 /* TCA-Snake 2.app */;
 			productType = "com.apple.product-type.application";
@@ -96,9 +161,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					98B6056229E3612D005449FE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 98C2C74A29DB352C00A48C27;
+					};
 					98C2C74A29DB352C00A48C27 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -113,16 +182,27 @@
 				Base,
 			);
 			mainGroup = 98C2C74229DB352C00A48C27;
+			packageReferences = (
+				98C2C75D29DB356B00A48C27 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 98C2C74C29DB352C00A48C27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98C2C74A29DB352C00A48C27 /* TCA-Snake 2 */,
+				98B6056229E3612D005449FE /* TCA-Snake 2 Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		98B6056129E3612D005449FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98C2C74929DB352C00A48C27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,18 +215,86 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		98B6055F29E3612D005449FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B6056629E3612D005449FE /* TCA_Snake_2_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98C2C74729DB352C00A48C27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C2C76129DB358200A48C27 /* Snake.swift in Sources */,
+				98DBFEA929E6076500679032 /* CoordinateGenerator.swift in Sources */,
 				98C2C75129DB352C00A48C27 /* ContentView.swift in Sources */,
 				98C2C74F29DB352C00A48C27 /* TCA_Snake_2App.swift in Sources */,
+				98B6056D29E36538005449FE /* Vector.swift in Sources */,
+				98B6056F29E368DF005449FE /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		98B6056829E3612D005449FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C2C74A29DB352C00A48C27 /* TCA-Snake 2 */;
+			targetProxy = 98B6056729E3612D005449FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		98B6056A29E3612D005449FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.TCA-Snake-2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-Snake 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-Snake 2";
+			};
+			name = Debug;
+		};
+		98B6056B29E3612D005449FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.TCA-Snake-2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-Snake 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-Snake 2";
+			};
+			name = Release;
+		};
 		98C2C75829DB352E00A48C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -180,6 +328,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -197,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -240,6 +389,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -251,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -269,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA-Snake 2/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -296,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA-Snake 2/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -317,6 +469,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		98B6056929E3612D005449FE /* Build configuration list for PBXNativeTarget "TCA-Snake 2 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B6056A29E3612D005449FE /* Debug */,
+				98B6056B29E3612D005449FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		98C2C74629DB352C00A48C27 /* Build configuration list for PBXProject "TCA-Snake 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -336,6 +497,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98C2C75D29DB356B00A48C27 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98C2C75E29DB356B00A48C27 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98C2C75D29DB356B00A48C27 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98C2C74329DB352C00A48C27 /* Project object */;
 }
