@@ -78,6 +78,7 @@ struct ContentView: View {
                     board(store: viewStore)
                         .frame(alignment: .center)
                 }
+                
                 HStack {
                     Text("Length \(viewStore.player.count)")
                         .foregroundColor(.white)
@@ -90,9 +91,9 @@ struct ContentView: View {
                 } 
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
-            .padding()
+            .padding(20)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.orange)
+            .background(Color.orange.background(keyboard(store: viewStore)))
         }
 
     }

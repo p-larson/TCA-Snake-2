@@ -91,7 +91,6 @@ struct Snake: ReducerProtocol {
             state.width = max(Int(size.width) / Snake.cellSize, Snake.minWidth)
             state.height = max(Int(size.height) / Snake.cellSize, Snake.minHeight)
             
-            print(state.width, state.height)
             return .send(.reset)
         case .start:
             guard state.status != .gameover else {
@@ -142,7 +141,6 @@ struct Snake: ReducerProtocol {
             if state.status == .ready 
                 || (newDirection != (state.direction * -1) && state.status == .playing)
             {
-                print(state.direction * -1, newDirection)
                 state.direction = newDirection
                 
                 return .merge(.send(.gameTick), .send(.start))

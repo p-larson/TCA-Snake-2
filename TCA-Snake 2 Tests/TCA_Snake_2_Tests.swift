@@ -34,6 +34,24 @@ final class TCA_Snake_2_Tests: XCTestCase {
 //        await store.send(.key())
     }
     
+//    let spawnFoodTask = AsyncThrowingStream<, Error>.streamWithContinuation()
+    
+    func testCoordinateGenerator() {
+        let store = TestStore(
+            initialState: Snake.State.init(
+                width: Snake.minWidth, 
+                height: Snake.minHeight
+            ), 
+            reducer: Snake()
+        ) {
+            $0.coordinateGenerator = .liveValue
+        }
+        
+        measure(options: .default) { 
+            store.send(.spawnFood)
+        }
+    }
+    
     func testFullMap() async {
         let store = TestStore(
             initialState: Snake.State.init(
@@ -41,7 +59,14 @@ final class TCA_Snake_2_Tests: XCTestCase {
                 height: Snake.minHeight
             ), 
             reducer: Snake()
-        )
+        ) {
+            $0.coordinateGenerator = .liveValue
+        }
+        
+        
+        
+        await store.send(.gameTick)
+        
     }
 
 }
