@@ -52,6 +52,8 @@ extension CoordinateGenerator: DependencyKey {
     )
     
     static let testValue = Self(
-        findOpenCoordinate: unimplemented("\(Self.self).findOpenCoordinate")
+        findOpenCoordinate: { _, _, _ in
+            return Coordinate(1, 1)
+        }
     )
 }

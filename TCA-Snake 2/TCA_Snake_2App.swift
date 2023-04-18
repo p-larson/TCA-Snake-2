@@ -12,7 +12,7 @@ import ComposableArchitecture
 struct TCA_Snake_2App: App {
     var body: some Scene {
         WindowGroup {            
-            ContentView(
+            SnakeView(
                 store: StoreOf<Snake>(
                     initialState: Snake.State(),
                     reducer: Snake()

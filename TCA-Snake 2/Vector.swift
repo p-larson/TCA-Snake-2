@@ -8,6 +8,10 @@
 import Foundation
 
 struct Vector: Equatable, Hashable, CustomDebugStringConvertible {
+    static func ==(lhs: Vector, rhs: Vector) -> Bool {
+        lhs.dx == rhs.dx && rhs.dy == lhs.dy
+    }
+
     
     let dx, dy: Int
     
@@ -21,11 +25,11 @@ struct Vector: Equatable, Hashable, CustomDebugStringConvertible {
         self.dy = dy
     }
     
-    static let zero = Vector(0, 0)
-    static let down = Vector(0, -1)
-    static let up = Vector(0, 1)
-    static let left = Vector(-1, 0)
-    static let right = Vector(1, 0)
+    internal static let zero = Vector(0, 0)
+    internal static let down = Vector(0, 1)
+    internal static let up = Vector(0, -1)
+    internal static let left = Vector(-1, 0)
+    internal static let right = Vector(1, 0)
     
     static let start = Coordinate(0, 0)
     

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9827301129E84D580015C7AD /* HighScoreClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9827301029E84D580015C7AD /* HighScoreClient.swift */; };
+		9827301329E8AB210015C7AD /* SnakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9827301229E8AB210015C7AD /* SnakeView.swift */; };
 		98B6056629E3612D005449FE /* TCA_Snake_2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6056529E3612D005449FE /* TCA_Snake_2_Tests.swift */; };
 		98B6056D29E36538005449FE /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6056C29E36538005449FE /* Vector.swift */; };
 		98B6056F29E368DF005449FE /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6056E29E368DF005449FE /* Coordinate.swift */; };
 		98C2C74F29DB352C00A48C27 /* TCA_Snake_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2C74E29DB352C00A48C27 /* TCA_Snake_2App.swift */; };
-		98C2C75129DB352C00A48C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2C75029DB352C00A48C27 /* ContentView.swift */; };
 		98C2C75329DB352E00A48C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C2C75229DB352E00A48C27 /* Assets.xcassets */; };
 		98C2C75629DB352E00A48C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C2C75529DB352E00A48C27 /* Preview Assets.xcassets */; };
 		98C2C75F29DB356B00A48C27 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 98C2C75E29DB356B00A48C27 /* ComposableArchitecture */; };
@@ -30,13 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9827301029E84D580015C7AD /* HighScoreClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreClient.swift; sourceTree = "<group>"; };
+		9827301229E8AB210015C7AD /* SnakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeView.swift; sourceTree = "<group>"; };
 		98B6056329E3612D005449FE /* TCA-Snake 2 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-Snake 2 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B6056529E3612D005449FE /* TCA_Snake_2_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_Snake_2_Tests.swift; sourceTree = "<group>"; };
 		98B6056C29E36538005449FE /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		98B6056E29E368DF005449FE /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		98C2C74B29DB352C00A48C27 /* TCA-Snake 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-Snake 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C2C74E29DB352C00A48C27 /* TCA_Snake_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_Snake_2App.swift; sourceTree = "<group>"; };
-		98C2C75029DB352C00A48C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98C2C75229DB352E00A48C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C2C75529DB352E00A48C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98C2C75729DB352E00A48C27 /* TCA_Snake_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCA_Snake_2.entitlements; sourceTree = "<group>"; };
@@ -93,11 +95,12 @@
 			isa = PBXGroup;
 			children = (
 				98C2C74E29DB352C00A48C27 /* TCA_Snake_2App.swift */,
-				98C2C75029DB352C00A48C27 /* ContentView.swift */,
+				9827301229E8AB210015C7AD /* SnakeView.swift */,
 				98C2C76029DB358200A48C27 /* Snake.swift */,
 				98B6056C29E36538005449FE /* Vector.swift */,
 				98B6056E29E368DF005449FE /* Coordinate.swift */,
 				98DBFEA829E6076500679032 /* CoordinateGenerator.swift */,
+				9827301029E84D580015C7AD /* HighScoreClient.swift */,
 				98C2C75229DB352E00A48C27 /* Assets.xcassets */,
 				98C2C75729DB352E00A48C27 /* TCA_Snake_2.entitlements */,
 				98C2C75429DB352E00A48C27 /* Preview Content */,
@@ -228,11 +231,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C2C76129DB358200A48C27 /* Snake.swift in Sources */,
+				9827301129E84D580015C7AD /* HighScoreClient.swift in Sources */,
 				98DBFEA929E6076500679032 /* CoordinateGenerator.swift in Sources */,
-				98C2C75129DB352C00A48C27 /* ContentView.swift in Sources */,
 				98C2C74F29DB352C00A48C27 /* TCA_Snake_2App.swift in Sources */,
 				98B6056D29E36538005449FE /* Vector.swift in Sources */,
 				98B6056F29E368DF005449FE /* Coordinate.swift in Sources */,
+				9827301329E8AB210015C7AD /* SnakeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
