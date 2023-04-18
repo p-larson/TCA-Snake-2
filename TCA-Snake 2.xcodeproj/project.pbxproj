@@ -267,10 +267,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.TCA-Snake-2-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-Snake 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-Snake 2";
 			};
 			name = Debug;
@@ -291,10 +292,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.TCA-Snake-2-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-Snake 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-Snake 2";
 			};
 			name = Release;
