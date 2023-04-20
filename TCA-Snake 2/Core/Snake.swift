@@ -18,8 +18,8 @@ struct Snake: ReducerProtocol {
     static let cellSize: Int = 20
     
     struct State: Equatable {
-        @BindingState var width: Int 
-        @BindingState var height: Int
+        var width: Int 
+        var height: Int
         var player: [Coordinate]
         var food: Coordinate
         var direction: Vector = .zero

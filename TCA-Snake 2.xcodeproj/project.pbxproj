@@ -65,6 +65,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		988B0CA229F1A33700A325F1 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				98DBFEA829E6076500679032 /* CoordinateGenerator.swift */,
+				9827301029E84D580015C7AD /* HighScoreClient.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		988B0CA329F1A33E00A325F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98B6056C29E36538005449FE /* Vector.swift */,
+				98B6056E29E368DF005449FE /* Coordinate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		988B0CA429F1A34200A325F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				98C2C76029DB358200A48C27 /* Snake.swift */,
+				988B0CA329F1A33E00A325F1 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		988B0CA529F1A34700A325F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9827301229E8AB210015C7AD /* SnakeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		98B6056429E3612D005449FE /* TCA-Snake 2 Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,12 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				98C2C74E29DB352C00A48C27 /* TCA_Snake_2App.swift */,
-				9827301229E8AB210015C7AD /* SnakeView.swift */,
-				98C2C76029DB358200A48C27 /* Snake.swift */,
-				98B6056C29E36538005449FE /* Vector.swift */,
-				98B6056E29E368DF005449FE /* Coordinate.swift */,
-				98DBFEA829E6076500679032 /* CoordinateGenerator.swift */,
-				9827301029E84D580015C7AD /* HighScoreClient.swift */,
+				988B0CA529F1A34700A325F1 /* View */,
+				988B0CA429F1A34200A325F1 /* Core */,
+				988B0CA229F1A33700A325F1 /* Dependencies */,
 				98C2C75229DB352E00A48C27 /* Assets.xcassets */,
 				98C2C75729DB352E00A48C27 /* TCA_Snake_2.entitlements */,
 				98C2C75429DB352E00A48C27 /* Preview Content */,
